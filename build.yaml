@@ -1,0 +1,16 @@
+targets:
+  $default:
+    sources:
+      - lib/**
+      - swagger/**
+    builders:
+      chopper_generator:
+        options:
+          header: "/lib"
+      swagger_dart_code_generator:
+        options:
+          input_folder: swagger
+          output_folder: lib/generated
+          with_base_url: true
+          with_converter: true
+          use_path_for_request_names: true
