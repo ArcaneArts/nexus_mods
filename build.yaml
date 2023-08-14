@@ -3,14 +3,15 @@ targets:
     sources:
       - lib/**
       - swagger/**
+      - $package$
     builders:
       chopper_generator:
         options:
-          header: "/lib"
+          header: "// Generated"
       swagger_dart_code_generator:
         options:
           input_folder: swagger
-          output_folder: lib/generated
+          output_folder: lib
           with_base_url: true
           with_converter: true
           use_path_for_request_names: true

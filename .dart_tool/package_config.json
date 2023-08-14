@@ -110,6 +110,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "colored_print",
+      "rootUri": "file:///C:/Users/cyberpwn/AppData/Local/Pub/Cache/hosted/pub.dev/colored_print-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "convert",
       "rootUri": "file:///C:/Users/cyberpwn/AppData/Local/Pub/Cache/hosted/pub.dev/convert-3.1.1",
       "packageUri": "lib/",
@@ -138,6 +144,12 @@
       "rootUri": "file:///C:/Users/cyberpwn/AppData/Local/Pub/Cache/hosted/pub.dev/equatable-2.0.5",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "fast_log",
+      "rootUri": "file:///C:/Users/cyberpwn/AppData/Local/Pub/Cache/hosted/pub.dev/fast_log-1.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
     },
     {
       "name": "file",
@@ -446,7 +458,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-08-13T18:42:02.619713Z",
+  "generated": "2023-08-13T18:56:49.688261Z",
   "generator": "pub",
   "generatorVersion": "3.0.6"
 }
